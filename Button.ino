@@ -51,7 +51,7 @@ void loop() {
     Serial.print("  button status : pressed ");
     Serial.print("  led state : ON ");
     Serial.println(); 
-   delay
+   
   } else {
       digitalWrite(ledPin, LOW);
       Serial.print("  button status : Unpressed ");
